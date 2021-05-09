@@ -7,7 +7,7 @@ type GenericType<T> = {
   name: T;
 };
 
-const showType = (arg: GenericType<string>) => {
+const showType = (arg: GenericType<string>): void => {
   console.log(`typeof ${arg} - ${typeof arg}`);
 };
 

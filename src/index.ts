@@ -1,6 +1,7 @@
 // import showType from './intersection-types/index';
 // import showType from './union-types/index';
-import showType, { showTypeTwo } from './generic-types';
+// import showType, { showTypeTwo } from './generic-types';
+import showType from './utility-types';
 
 // Demonstrates Intersection Types
 // showType({ id: 1, left: 'test', right: 'test' });
@@ -13,5 +14,8 @@ import showType, { showTypeTwo } from './generic-types';
 // showType(1);
 
 // Demonstrates Generic Types - Example 2
-showType({ id: 1, name: 'sam' });
-showTypeTwo({ id: 3, name: 1 });
+// showType({ id: 1, name: 'sam' });
+// showTypeTwo({ id: 3, name: 1 });
+
+// Demonstrates Utility types - Pick
+showType({ firstName: 'John' });
